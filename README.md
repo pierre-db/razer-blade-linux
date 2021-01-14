@@ -117,5 +117,5 @@ Because why not? For me POP!\_OS runs perfectly on my Razer Blade and made using
 
 ## Credits
 
-This walk through has been inspired by the following post: https://github.com/nrobinson2000/linux-blade
-You can also find a wealth of info here: https://github.com/rolandguelle/razer-blade-stealth-linux
+- This walk through has been inspired by the following post: https://github.com/nrobinson2000/linux-blade
+- You can also find a wealth of info here: https://github.com/rolandguelle/razer-blade-stealth-linux
