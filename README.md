@@ -51,7 +51,7 @@ You can decide how much space you want to allocate to the POP!\_OS installation.
 Next we'll take care of the BIOS configuration. To go into the BIOS shut down your computer, then press the power button and immediately begin to rapidly press the ESC or F1 key at a rate of 1.5 times per second. Once you are in the BIOS:
 - Disable fast boot: Go to 'Boot' > 'Fast Boot' select 'Disable'
 - Disable secure boot: Go to 'Security' > 'Secure Boot' select 'Disable'
-- Disable CSM (default): Go to 'Boot' > 'CSM Configuration' > ÇSM Support' select 'Disable'
+- Disable CSM (default): Go to 'Boot' > 'CSM Configuration' > 'CSM Support' select 'Disable'
 
 ## Prepare an installation media
 
