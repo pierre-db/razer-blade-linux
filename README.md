@@ -49,13 +49,16 @@ You can check out this online resource: https://www.howtogeek.com/101862/how-to-
 You can decide how much space you want to allocate to the POP!\_OS installation. You can also resize the partition with the POP!\_OS installer but it is best practice to do into from Windows. You can leave the space you reserved for POP!\_OS unallocated and format it from the installer.
 
 Next we'll take care of the BIOS configuration. To go into the BIOS shut down your computer, then press the power button and immediately begin to rapidly press the ESC or F1 key at a rate of 1.5 times per second. Once you are in the BIOS:
-#### Disable fastboot
-#### Disable secure boot
+- Disable fast boot: Go to 'Boot' > 'Fast Boot' select 'Disable'
+- Disable secure boot: Go to 'Security' > 'Secure Boot' select 'Disable'
+- Disable CSM (default): Go to 'Boot' > 'CSM Configuration' > ÇSM Support' select 'Disable'
 
 ## Prepare an installation media
+
 Here we'll prepare an installation media for POP!\_OS
 
 #### Download POP!\_OS ISO
+
 You can grab their latest ISO from their official website: https://pop.system76.com/
 
 Select the NVIDIA option. I chose the LTS version 20.04, but feel free to try the latest version.
@@ -112,3 +115,7 @@ Reboot your computer.
 
 Because why not? For me POP!\_OS runs perfectly on my Razer Blade and made using Linux on that laptop a totally viable option, which definitely adds to the appeal of the laptop!
 
+## Credits
+
+This walk through has been inspired by the following post: https://github.com/nrobinson2000/linux-blade
+You can also find a wealth of info here: https://github.com/rolandguelle/razer-blade-stealth-linux
